@@ -16,7 +16,7 @@ li	a5, 1
 sw	a5, 16(a0)
 
 li a1, 0 # start_number
-li a2, 10 # end_number
+li a2, 4 # end_number
 
 jal ra, QUICKSORT
 jal ra, EXIT
