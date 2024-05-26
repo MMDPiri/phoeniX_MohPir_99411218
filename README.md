@@ -107,7 +107,7 @@ The algorithm implemented is a simple iterative method to find the integer squar
 The provided RISC-V assembly code for calculating the integer square root is as follows:
 
 ```assembly
-li a0, 13    # a = 22
+li a0, 22    # a = 22
 li t0, 0     # j = counter = 0
 
 LOOP:
