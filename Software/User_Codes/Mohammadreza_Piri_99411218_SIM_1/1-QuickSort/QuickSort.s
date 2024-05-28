@@ -8,9 +8,9 @@ li	a5, 5
 sw	a5, 0(a0)
 li	a5, 4
 sw	a5, 4(a0)
-li	a5, 3
+li	a5, 8
 sw	a5, 8(a0)
-li	a5, 2
+li	a5, 6
 sw	a5, 12(a0)
 li	a5, 1
 sw	a5, 16(a0)
