@@ -24,7 +24,7 @@ The program consists of 5 main sections :
 #### Detailed Explanation
 
 1. **Initialization**:
-    - The stack pointer is adjusted and Registers `a0` to `a5` are initialized with sample values. Then an array is loaded into memory at address `a0`, with values `[5, 4, 3, 2, 1]`. The start (`a1`) and end (`a2`) indices of the array are set to `0` and `4`, respectively.
+    - The stack pointer is adjusted and Registers `a0` to `a5` are initialized with sample values. Then an array is loaded into memory at address `a0`, with values `[5, 4, 8, 6, 1]`. The start (`a1`) and end (`a2`) indices of the array are set to `0` and `4`, respectively.
 
     ```assembly
     addi sp, sp, 1000
@@ -88,7 +88,9 @@ The program consists of 5 main sections :
     ebreak
     ```
 Here is the Waveform of the code :
-![QSPiri](https://github.com/MMDPiri/phoeniX_MohPir_99411218/assets/169598509/cb9002ce-d257-4363-8d8a-69811ef8a97e)
+
+![1000018533](https://github.com/MMDPiri/phoeniX_MohPir_99411218/assets/169598509/b433a5e4-3837-4c48-9031-07cde02755df)
+
 
 ## Part Two
 
@@ -140,5 +142,6 @@ ebreak
 
 For the given code, the input number is 22. The integer square root of 22 is 4, since \( 4^2 = 16 \) and \( 5^2 = 25 \) which exceeds 22.
 
-![SRPiri](https://github.com/MMDPiri/phoeniX_MohPir_99411218/assets/169598509/c93e07df-2f7c-42fa-91ef-40fae734eb7d)
+![1000018534](https://github.com/MMDPiri/phoeniX_MohPir_99411218/assets/169598509/48c8fc20-0b5c-4e51-9a24-57ddd6bfd69b)
+
 
