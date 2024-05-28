@@ -6,7 +6,7 @@ li s11, 5
 #init arr[] to memory
 li	a5, 5
 sw	a5, 0(a0)
-li	a5, 4
+li	a5, 5
 sw	a5, 4(a0)
 li	a5, 8
 sw	a5, 8(a0)
